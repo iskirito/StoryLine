@@ -1,7 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class CYOAObject {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -28,9 +27,6 @@ public class CYOAObject {
                     System.out.println("Suddenly, the floor gives way and you fall into a pit.");
                     System.out.println("GAME OVER");
                 }
-                else {
-                    System.out.println("Invalid input. Please try again.");
-                }
                 break;
                 
             case "2":
@@ -51,9 +47,6 @@ public class CYOAObject {
                     System.out.println("You climb the stairs to safety.");
                     System.out.println("Congratulations, you survived!");
                 }
-                else {
-                    System.out.println("Invalid input. Please try again.");
-                }
                 break;
                 
             case "3":
@@ -71,4 +64,10 @@ public class CYOAObject {
                 }
                 else if(statueChoice.equals("no")) {
                     System.out.println("You decide not to touch anything, and look for a way out.");
-                    System.out.println("As you do, a hidden door slides open, revealing a staircase
+                    System.out.println("As you do, a hidden door slides open, revealing a staircase.");
+                    System.out.println("You climb the stairs to safety.");
+                    System.out.println("Congratulations, you survived!");
+                }
+                break;
+                
+            case "
