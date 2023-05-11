@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CYOAObject {
-    public static void main(String[] args) {
+    public static void playGame() {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Hello, what is your name?");
